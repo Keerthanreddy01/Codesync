@@ -18,38 +18,30 @@
 
 ## 🌟 About
 
-CodeSync Arena transforms competitive programming into a dynamic multiplayer experience. Teams of developers battle in real-time coding challenges, collaborate through Git-style branching, and receive AI-powered feedback on their solutions. Whether you're preparing for technical interviews, improving coding skills, or just love competitive programming, CodeSync Arena provides an engaging platform to level up your development game.
+CodeSync Arena is a Flutter-based application designed for competitive programming and collaborative coding. Built with modern technologies and clean architecture, it provides a solid foundation for multiplayer coding experiences. The project showcases best practices in Flutter development, Firebase integration, and scalable app architecture.
 
 ### 🎯 Key Highlights
-- **Real-time Multiplayer**: Battle with up to 10 developers simultaneously
-- **Git-style Collaboration**: Branch, merge, and review code like a real project
-- **AI-Powered Judging**: Get instant feedback on efficiency, quality, and best practices
-- **Cross-platform**: Available on mobile, desktop, and web
-- **Global Leaderboards**: Track your progress and climb the ranks
-- **Achievement System**: Unlock badges and showcase your skills
+- **Flutter Development** - Cross-platform mobile and desktop application
+- **Firebase Integration** - Authentication and real-time data management
+- **Clean Architecture** - Maintainable and scalable codebase
+- **Modern UI** - Material Design 3 with responsive layouts
+- **Professional Code** - Well-documented and tested implementation
 
 ## ✨ Features
 
-### 🏆 Competitive Features
-- **Live Coding Battles** - Real-time multiplayer coding competitions
-- **Team Formations** - Create and join teams for collaborative challenges
-- **Skill-based Matching** - Fair matchmaking based on coding proficiency
-- **Tournament Mode** - Organized competitions with brackets and rankings
-- **Spectator Mode** - Watch and learn from top performers
+### 🏆 Core Features
+- **Authentication System** - Secure user registration and login
+- **User Profiles** - Personalized developer profiles
+- **Responsive Design** - Works across mobile, tablet, and desktop
+- **Modern UI** - Clean Material Design 3 interface
+- **Real-time Updates** - Live data synchronization
 
-### 🔧 Development Features
-- **Multi-language Support** - Python, Java, C++, JavaScript, and more
-- **Integrated IDE** - Full-featured code editor with syntax highlighting
-- **Branch Management** - Git-style workflow for team collaboration
-- **Code Review System** - Peer review and feedback mechanisms
-- **Version Control** - Track changes and maintain code history
-
-### 📊 Analytics & Learning
-- **Performance Metrics** - Detailed analytics on coding speed and accuracy
-- **AI Code Analysis** - Automated feedback on code quality and optimization
-- **Learning Paths** - Curated challenges to improve specific skills
-- **Progress Tracking** - Visualize your improvement over time
-- **Weekly Challenges** - Fresh problems to keep skills sharp
+### 🔧 Technical Features
+- **Multi-platform Support** - Android, iOS, Web, Windows
+- **Clean Architecture** - Scalable and maintainable codebase
+- **State Management** - Efficient app state handling with Riverpod
+- **Firebase Integration** - Backend services and authentication
+- **Code Quality** - Comprehensive testing and documentation
 
 ## 🛠️ Technology Stack
 
@@ -60,10 +52,9 @@ CodeSync Arena transforms competitive programming into a dynamic multiplayer exp
 - **Material Design 3** - Modern, accessible UI components
 
 ### Backend & Services
-- **Firebase Suite** - Authentication, real-time database, cloud storage
-- **Cloud Firestore** - Scalable NoSQL document database
-- **Firebase Analytics** - User behavior and app performance insights
-- **Judge0 API** - Secure code execution and testing environment
+- **Firebase Suite** - Authentication and real-time database
+- **Cloud Firestore** - Document-based data storage
+- **Firebase Analytics** - Basic app usage tracking
 
 ### Architecture
 - **Clean Architecture** - Separation of concerns and maintainable code
@@ -156,35 +147,32 @@ JUDGE0_API_KEY=your-judge0-key
 JUDGE0_HOST=your-judge0-host
 ```
 
-## 📱 Demo
-
-### Screenshots
+## 📱 Screenshots
 
 <div align="center">
 <table>
   <tr>
-    <td align="center"><img src="assets/images/home_screen.png" width="200px" alt="Home Screen"/><br/>🏠 Home Screen</td>
-    <td align="center"><img src="assets/images/battle_arena.png" width="200px" alt="Battle Arena"/><br/>⚔️ Battle Arena</td>
-    <td align="center"><img src="assets/images/code_editor.png" width="200px" alt="Code Editor"/><br/>💻 Code Editor</td>
+    <td align="center">🏠 Home Screen</td>
+    <td align="center">🔐 Authentication</td>
+    <td align="center">👤 User Profile</td>
   </tr>
   <tr>
-    <td align="center"><img src="assets/images/team_lobby.png" width="200px" alt="Team Lobby"/><br/>👥 Team Lobby</td>
-    <td align="center"><img src="assets/images/leaderboard.png" width="200px" alt="Leaderboard"/><br/>🏆 Leaderboard</td>
-    <td align="center"><img src="assets/images/achievements.png" width="200px" alt="Achievements"/><br/>🎖️ Achievements</td>
+    <td align="center">💻 Main Interface</td>
+    <td align="center">⚙️ Settings</td>
+    <td align="center">📱 Responsive Design</td>
   </tr>
 </table>
 </div>
 
-### Live Demo
-🌐 **Try it now:** [codesync-arena.web.app](https://codesync-arena.web.app)
+*Screenshots will be added as development progresses*
 
-## 🎮 How to Play
+## 🚀 Getting Started
 
-1. **🔐 Sign Up/Login** - Create your developer profile
-2. **🎯 Choose Mode** - Solo practice or multiplayer battles
-3. **👥 Form Teams** - Invite friends or join random teams
-4. **⚔️ Enter Battle** - Solve coding challenges in real-time
-5. **🏆 Compete** - Climb leaderboards and unlock achievements
+1. **📥 Clone Repository** - Download the source code
+2. **⚙️ Install Dependencies** - Run `flutter pub get`
+3. **🔥 Setup Firebase** - Configure authentication
+4. **▶️ Launch App** - Run `flutter run`
+5. **🎯 Explore** - Navigate through the interface
 
 ## 🏗️ Architecture
 
@@ -254,15 +242,11 @@ flutter pub get
 ```
 
 3. **Configure Firebase**
-   - Download `google-services.json` from Firebase Console (Android)
-   - Download `GoogleService-Info.plist` from Firebase Console (iOS)
-   - Place files in the appropriate directories
+   ```bash
+   flutterfire configure
+   ```
 
-4. **Update Firebase configuration**
-   - Edit `lib/firebase_options.dart`
-   - Replace placeholder API keys with your actual Firebase credentials
-
-5. **Run the app**
+3. **Run the app**
 ```bash
 flutter run
 ```
@@ -528,35 +512,26 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 🙏 Acknowledgments
 
 - **Flutter Team** - For the amazing cross-platform framework
-- **Firebase** - For robust backend services  
-- **Judge0** - For secure code execution environment
+- **Firebase** - For backend services
 - **Material Design** - For beautiful UI components
 - **Open Source Community** - For inspiration and contributions
 
 ## 📞 Support
 
-Having issues? We're here to help!
+Having issues? Feel free to:
 
-- 📧 **Email**: support@codesync-arena.com
-- 🐛 **Bug Reports**: [GitHub Issues](https://github.com/Keerthanreddy01/Codesync/issues)
-- 💬 **Discussions**: [GitHub Discussions](https://github.com/Keerthanreddy01/Codesync/discussions)
-- 📱 **Discord**: [Join our community](https://discord.gg/codesync)
+- 🐛 **Report Bugs**: [GitHub Issues](https://github.com/Keerthanreddy01/Codesync/issues)
+- 💬 **Ask Questions**: [GitHub Discussions](https://github.com/Keerthanreddy01/Codesync/discussions)
 
-## 🗺️ Roadmap
+## 🗺️ Development Roadmap
 
-### 🚀 Upcoming Features
-- [ ] **Tournament Mode** - Organized competitions
-- [ ] **AI Code Review** - Automated code analysis  
-- [ ] **Video Tutorials** - Interactive learning content
-- [ ] **Mobile App** - iOS and Android applications
-- [ ] **API Integration** - Third-party service connections
-- [ ] **Advanced Analytics** - Detailed performance metrics
-
-### 🎯 Long-term Goals
-- [ ] **Machine Learning** - Personalized challenge recommendations
-- [ ] **Blockchain Integration** - NFT achievements and rewards
-- [ ] **Enterprise Features** - Corporate training programs
-- [ ] **Global Championships** - Worldwide coding competitions
+### 🚀 Planned Features
+- [ ] **Team Management** - Create and join coding teams
+- [ ] **Real-time Collaboration** - Live code editing
+- [ ] **Battle System** - Competitive coding challenges
+- [ ] **Progress Tracking** - User statistics and achievements
+- [ ] **Enhanced UI** - Improved user experience
+- [ ] **Performance Optimization** - Better app performance
 
 ---
 
@@ -564,6 +539,6 @@ Having issues? We're here to help!
 
 **Made with ❤️ by the CodeSync Team**
 
-[⭐ Star us on GitHub](https://github.com/Keerthanreddy01/Codesync) • [🐦 Follow us on Twitter](https://twitter.com/codesync) • [💼 LinkedIn](https://linkedin.com/company/codesync)
+[⭐ Star us on GitHub](https://github.com/Keerthanreddy01/Codesync)
 
 </div>
