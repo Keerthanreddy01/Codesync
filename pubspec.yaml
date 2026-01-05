@@ -1,0 +1,74 @@
+name: codesync_arena
+description: "A multiplayer competitive coding platform with real-time collaboration, Git-style branching, and AI-powered code judging."
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Core Dependencies
+  cupertino_icons: ^1.0.6
+
+  # State Management
+  flutter_riverpod: ^2.5.1
+
+  # Firebase (Stable Set)
+  firebase_core: ^2.27.0
+  firebase_auth: ^4.17.8
+  firebase_database: ^10.4.9
+  cloud_firestore: ^4.15.8
+  firebase_storage: ^11.6.9
+
+  # UI & Fonts
+  google_fonts: ^6.1.0
+
+  # Code Editor (Phase 4)
+  flutter_highlight: ^0.7.0
+  highlight: ^0.7.0
+
+  # Local Storage
+  sqflite: ^2.3.2
+  path: ^1.9.0
+  shared_preferences: ^2.2.2
+
+  # Navigation
+  go_router: ^13.2.0
+
+  # Utilities
+  uuid: ^4.3.3
+  intl: ^0.19.0
+  http: ^1.2.0
+
+  # Authentication
+  google_sign_in: ^6.2.1
+  json_annotation: ^4.9.0
+  equatable: ^2.0.8
+  dartz: ^0.10.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+  build_runner: ^2.10.4
+  json_serializable: ^6.11.3
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/
+
+  # fonts:
+  #   - family: Inter
+  #     fonts:
+  #       - asset: assets/fonts/Inter-Regular.ttf
+  #       - asset: assets/fonts/Inter-Bold.ttf
+  #         weight: 700
+  #       - asset: assets/fonts/Inter-SemiBold.ttf
+  #         weight: 600
+  #   - family: JetBrainsMono
+  #     fonts:
+  #       - asset: assets/fonts/JetBrainsMono-Regular.ttf
